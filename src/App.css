@@ -47,6 +47,8 @@ button{font-family:inherit;}
 
 /* ---------- Nav ---------- */
 .nav{
+  /*i am adding a line here*/
+  font-family:'Robot Monster', sans-serif;
   position:sticky;top:0;z-index:50;
   background:rgba(0,0,0,0.88);
   backdrop-filter:blur(6px);
@@ -57,7 +59,8 @@ button{font-family:inherit;}
   padding:18px 32px;max-width:var(--max);margin:0 auto;
 }
 .brand{
-  font-family:var(--brand-font, 'Audiowide', sans-serif);
+  /* font-family:var(--brand-font, 'Audiowide', sans-serif); */
+  font-family:var(--brand-font, 'Robot Monster', sans-serif);
   font-size:22px;
   letter-spacing:2px;
   color:var(--gold-bright);
@@ -76,6 +79,7 @@ button{font-family:inherit;}
   display:flex;gap:36px;list-style:none;margin:0;padding:0;
 }
 .nav-links a{
+
   font-size:13px;letter-spacing:1.5px;text-transform:uppercase;
   color:var(--champagne);
   padding-bottom:4px;border-bottom:1px solid transparent;
