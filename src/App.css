@@ -8,7 +8,13 @@
   --champagne:#cbb98a;
   --max:1240px;
 }
-
+/*i have added fonts */
+@font-face {
+  font-family: 'Robot Monster';
+  src: url('./assets/fonts/RobotMonster.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
 *{box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{
