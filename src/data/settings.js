@@ -9,7 +9,9 @@ export const FONT_OPTIONS = [
 ]
 
 export const defaultSettings = {
-  brandFont: 'Audiowide',
+  /* i add font here */
+  brandFont: 'Robot Monster',
+  /* brandFont: 'Audiowide', */
   accentColor: '#d4af37',
   showNewBadge: true,
   carouselAutoplay: true
