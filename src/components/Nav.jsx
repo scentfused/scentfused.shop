@@ -43,7 +43,7 @@ export default function Nav() {
           </button>
 
           {/* Admin panel entry point — top right corner as requested */}
-          <Link className="admin-btn" to="/admin">Admin</Link>
+          <Link className="admin-btn" to="/admin">ADMIN</Link>
 
           <button
             className="menu-toggle"
