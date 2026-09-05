@@ -78,11 +78,11 @@ button{font-family:inherit;}
 }
 .nav-links{
   display:flex;gap:36px;list-style:none;margin:0;padding:0;
-  font-size:24px;
+  font-size:20px;
 }
 .nav-links a{
 
-  font-size:13px;letter-spacing:1.5px;text-transform:uppercase;
+  font-size:20px;letter-spacing:2px;text-transform:uppercase;
   color:var(--champagne);
   padding-bottom:4px;border-bottom:1px solid transparent;
   transition:color .2s ease, border-color .2s ease;
