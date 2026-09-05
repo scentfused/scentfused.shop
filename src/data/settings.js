@@ -6,7 +6,7 @@ export const FONT_OPTIONS = [
   'Cinzel',
   'Metal Mania',
   'Monoton'
-  'RobotMonster.ttf'
+  
 ]
 
 export const defaultSettings = {
